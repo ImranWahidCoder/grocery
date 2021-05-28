@@ -1,0 +1,255 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    /* background-color: #282828; */
+}
+li
+{
+    list-style: none;
+}
+.header
+{
+    margin: 2px auto;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    background-color: #282828;
+    color: white;
+}
+.header .brand
+{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+#language
+{
+    margin-top: 15px;
+    margin-right:10px ;
+}
+#language li
+{
+    display: inline;
+    background-color: burlywood;
+    padding: 4px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin: 2px;
+}
+.demo
+{
+    margin: 5px;
+}
+.demo ul
+{
+    position: relative;
+    /* right: 20px;
+    top: 10px; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.demo li
+{
+    display: inline;
+}
+.banner
+{
+    background: url('./images/grocery.webp');
+    text-align: center;
+    height: 500px;
+    margin-bottom: 20px;
+}
+.desc
+{
+    margin: 1px auto;
+    display: flex;
+    justify-content: center;
+}
+.discount
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.discount img
+{
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+}
+.kotha
+{
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.story h1
+{
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.extra_btn
+{
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-between;
+}
+.extra_btn button
+{
+    margin: 10px;
+}
+.newsletter img
+{
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+.newsletter .col
+{
+    text-align: center;
+}
+.newsletter h1
+{
+    margin-bottom: 40px;
+}
+.bise
+{
+    background-color: rgb(6, 134, 81);
+    border-radius: 0px 20px 20px 20px;
+    padding: 10px;
+}
+.person
+{
+    margin-bottom: 30px;
+}
+.person h6
+{
+    color: wheat;
+}
+.show
+{
+    height: 300px;
+    width: 350px;
+    border-radius: 20px;
+}
+.frame
+{
+    background-color: rgb(4, 143, 51);
+    border-radius: 10px;
+    padding-top: 10px;
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: 5px 5px 7px black;
+}
+.contact
+{
+    background-color: rgb(211, 60, 14);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 80px;
+    box-shadow: 5px 5px 7px black;
+    color: rgb(126, 226, 176);
+}
+.contact a img
+{
+    margin: 15px;
+    height: 50px;
+    width: 50px;
+    filter: invert(100%);
+}
+.navigate
+{
+    background-color: rgb(2, 182, 158);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 80px;
+    box-shadow: 5px 5px 7px black;
+    color: white;
+}
+.navigate a
+{
+    font-size: 25px;
+    text-emphasis: none;
+    text-decoration: none;
+    color: yellow;
+}
+#sesh
+{
+    background-color: #282828;
+    font-size: large;
+    text-align: center;
+    margin-top: 0px;
+}
+#sesh p
+{
+    color: white;
+    font-size: 20px;
+}
+@media screen and (max-width:700px)
+{
+    .discount
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* .story h1
+    {
+        margin: 20px auto;
+        width: 100%;
+    } */
+    .discount p, .discount h4
+    {
+        margin-top: 10px;
+        width: 330px;
+    }
+    .discount img
+    {
+        height: 300px;
+        width: 330px;
+    }
+    .show
+    {
+        width: 330px;
+    }
+    .newsletter, .story, .reviews
+    {
+        width: 450px;
+    }
+    #language li
+    {
+        margin: 10px;
+    }
+}
+@media screen and (max-width:500px)
+{
+    .newsletter, .story, .reviews
+    {
+        width: 350px;
+    }
+}
+@media screen and (max-width:360px)
+{
+    .discount img
+    {
+        height: 300px;
+        width: 250px;
+    }
+    .discount p,.discount h4
+    {
+        margin-top: 10px;
+        width: 250px;
+    }
+    .show
+    {
+        width: 250px;
+    }
+    .newsletter, .story, .reviews
+    {
+        width: 260px;
+    }
+}
+
